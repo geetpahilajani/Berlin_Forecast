@@ -55,7 +55,7 @@ def Write_File(jsondata):
         w.writeheader()
         w.writerow(flat)
 
-    return print("Files are Created")
+    print("Files are Created")
 
 
 if __name__ == '__main__':
